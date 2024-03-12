@@ -17,11 +17,11 @@ const Travel = () => {
     <div className='relative'>
       <img className='relative top-0 left-0' src={back_2} alt='' />
       <div className='container'>
-        <div className='absolute z-10 top-8 text-center'>
+        <div className='absolute z-10 top-8 text-center '>
           <TitleFirst title={Data.title} description={Data.description} location='text-center' />
         </div>
 
-        <div className='absolute top-36 text-center '>
+        <div className='absolute top-36 text-center pr-32'>
           <div className='grid grid-cols-3 text-center'>
             <div className='flex flex-col items-center justify-center bg-white m-2'>
               <img src={tripadvisor} alt='' />

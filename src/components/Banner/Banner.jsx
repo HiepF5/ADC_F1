@@ -13,8 +13,10 @@ const Banner = () => {
   return (
     <div>
       <div className=''>
-        <div className=''>
-          <img src={BannerImg} alt='' />
+        <div className='flex justify-center items-center '>
+          <div className='text-center'>
+            <img className='' src={BannerImg} alt='' />
+          </div>
         </div>
         <div className='container relative h-32'>
           <div className='absolute inset-x-12 bg-white -mt-6 z-10 border flex items-center h-24 justify-around rounded-md text-gray-400 shadow-lg'>

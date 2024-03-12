@@ -68,8 +68,8 @@ const MostPopular = () => {
   }
   return (
     <div className='pt-16 relative'>
-      <div className='relative'>
-        <img className='absolute -top-4 z-0 left-0' src={Background} alt='' />
+      <div className='relative flex justify-center items-center'>
+        <img className='absolute inset-0 mx-auto -top-4 z-0 left-0' src={Background} alt='' />
         <div className='container relative'>
           <TitleMain title='Our Most Popular Tours' location='text-left' />
           <Slider {...settings} className='pt-8'>
