@@ -3,7 +3,7 @@ import Logo from '../../assets/img/Logo.png'
 const Navbar = () => {
   return (
     <div>
-      <div className='text-xl font-normal'>
+      <div className='text-base/4 font-medium leading-6'>
         <div className='container flex justify-between h-24'>
           <div>
             <img src={Logo} alt='' />

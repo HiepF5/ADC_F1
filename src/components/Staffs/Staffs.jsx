@@ -7,7 +7,7 @@ import S_4 from '../../assets/img/S_4.png'
 import Slider from 'react-slick'
 import ItemAround from '../ItemAround/ItemAround'
 const Data = {
-  title: 'Dedicated',
+  title: 'Dedicated Staffs',
   description:
     'With a team of enthusiastic and committed staff members, we are always eager to listen to your opinions and requirements!'
 }

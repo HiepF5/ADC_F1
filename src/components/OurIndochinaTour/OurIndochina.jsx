@@ -70,7 +70,7 @@ const OurIndochina = () => {
       <div className=' relative'>
         {/* <img className='absolute -top-16 z-0 left-0' src={Background} alt='' /> */}
         <div className='container '>
-          <TitleMain className='' title='OurIndochina Tours' location='text-left' />
+          <TitleMain className='' title='Our Indochina Tours' location='text-left' />
           <Slider {...settings} className='pt-8'>
             {ImageList.map((data) => (
               <Card key={data.id} data={data} />
